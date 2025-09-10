@@ -6,7 +6,7 @@ title: Setting up Windows Tools from scratch!
 description: Setup guide for using Windows Subsystem for Linux (WSL) for development.
 categories: ['DevOps']
 author: Anish Gupta
-permalink: /windows-setup-blog
+permalink: /blogs/windows-setup-blog
 breadcrumb: True 
 ---
  
