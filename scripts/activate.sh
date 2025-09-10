@@ -1,6 +1,12 @@
 export GIT_USER_NAME="neur0n-7"
 export GIT_USER_EMAIL="anishgupta7500@gmail.com"
 
+git config --global user.name "$GIT_USER_NAME"
+git config --global user.email "$GIT_USER_EMAIL"
+
+echo "Git User: $(git config --global user.name)"
+echo "Git Email: $(git config --global user.email)"
+
 # Function to check if a line exists in run commands
 line_exists_in_rc() {
   grep -Fxq "$1" ~/.bashrc
